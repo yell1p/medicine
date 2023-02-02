@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <!-- Создает навигацию -->
+    <header>
+      <div class="header-wrapper">
+        <div class="header-flex">
+          <img src="./images/web-logo.png" alt="" />
+          <nav>
+            <a href="#welcome" class="active-link">На Главную</a>
+            <a href="#find">Найти услугу</a>
+            <a href="#projects">Проекты</a>
+            <a href="#contacts">Связаться с нами</a>
+            <a href="#about">О нас</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Создает секцию для приветсвия пользователя -->
+    <section id="welcome">
+      <div class="welcome-wrapper">
+        <div class="inner">
+          <div class="welcome-flex">
+            <div class="welcome-text">
+              <h1>
+                Создание <br />
+                первого сайта
+              </h1>
+              <div class="welcome-details">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </p>
+              </div>
+              <button class="welcome-btn primary">Подробнее</button>
+            </div>
+            <img
+              src="./images/welcome-image.png"
+              alt="Приветственная картинка"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Услуги -->
+    <section id="services">
+      <div class="services-wrapper">
+        <div class="inner">
+          <div class="services-text">
+            <h1>Наши услуги</h1>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit
+              amet consectetur adipiscing elit pellentesque habitant morbi
+              tristique senectus. Pulvinar pellentesque habitant morbi tristique
+              senectus et netus et malesuada. Euismod nisi porta lorem mollis.
+              Enim ut tellus elementum sagittis vitae et leo duis ut. Ornare
+              quam viverra orci sagittis eu volutpat. Et malesuada fames ac
+              turpis. Id donec ultrices tincidunt arcu non. Lobortis feugiat
+              vivamus at augue eget arcu dictum varius duis. Cursus turpis massa
+              tincidunt dui. Senectus et netus et malesuada. Et malesuada fames
+              ac turpis egestas maecenas pharetra convallis. Sed odio morbi quis
+              commodo odio. Sem viverra aliquet eget sit. Feugiat nibh sed
+              pulvinar proin gravida hendrerit lectus. Semper quis lectus nulla
+              at volutpat diam ut venenatis tellus. Varius duis at consectetur
+              lorem. Lectus arcu bibendum at varius. Nisl pretium fusce id velit
+              ut.
+            </p>
+          </div>
+          <div class="services-cards">
+            <div class="cards-row">
+              <div class="card">
+                <img src="./images/services-icon.png" alt="" />
+                <div class="card-text">
+                  <h1>Card #1</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./images/services-icon.png" alt="" />
+                <div class="card-text">
+                  <h1>Card #2</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./images/services-icon.png" alt="" />
+                <div class="card-text">
+                  <h1>Card #3</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Augue eget arcu dictum varius.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-row hidden expandable">
+              <div class="card">
+                <img src="./images/services-icon.png" alt="" />
+                <div class="card-text">
+                  <h1>Card #1</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./images/services-icon.png" alt="" />
+                <div class="card-text">
+                  <h1>Card #2</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./images/services-icon.png" alt="" />
+                <div class="card-text">
+                  <h1>Card #3</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Augue eget arcu dictum varius.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-container">
+          <button class="default expand-btn">Подробнее</button>
+        </div>
+      </div>
+    </section>
+    <!-- Проекты -->
+    <section id="projects">
+      <div class="projects-wrapper">
+        <div class="inner">
+          <div class="projects-container">
+            <div class="project">
+              <img src="./images/project-image.png" alt="" />
+              <div class="project-text">
+                <h1>Проект -1</h1>
+                <hr />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Sit amet tellus cras adipiscing enim eu turpis egestas
+                  pretium. Est ullamcorper eget nulla facilisi. Augue interdum
+                  velit euismod in.
+                </p>
+                <button class="default">Подробнее</button>
+              </div>
+            </div>
+            <div class="project right-aligned">
+              <img src="./images/project-app.png" alt="" />
+              <div class="project-text">
+                <h1>Проект -2</h1>
+                <hr />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Sit amet tellus cras adipiscing enim eu turpis egestas
+                  pretium. Est ullamcorper eget nulla facilisi. Augue interdum
+                  velit euismod in.
+                </p>
+                <button class="default">
+                  Скачать
+                  <i
+                    class="fa-solid fa-arrow-down-long"
+                    style="margin-left: 10px"
+                  ></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Новости -->
+    <section id="news">
+      <div class="news-wrapper">
+        <div class="inner">
+          <div class="news-text">
+            <h1>Узнай о наших обновлениях</h1>
+            <hr />
+          </div>
+          <div class="news-cards">
+            <div class="cards-row">
+              <div class="card">
+                <img
+                  src="./images/3d15d61f6ff90719e4cdd53c867fb0ed.jpg"
+                  alt=""
+                />
+                <div class="card-info">
+                  <h1>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+                    non tenetur, voluptatem provident est saepe consequuntur
+                    ipsa sunt.
+                  </p>
+                  <a href="#"
+                    >Нажимай на меня
+                    <i
+                      class="fa-solid fa-arrow-right"
+                      style="margin-left: 10px"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="./images/62e77ca8644ad7a76fe5b71613fb69ce.jpg"
+                  alt=""
+                />
+                <div class="card-info">
+                  <h1>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+                    non tenetur, voluptatem provident est saepe consequuntur
+                    ipsa sunt.
+                  </p>
+                  <a href="#"
+                    >Нажимай на меня
+                    <i
+                      class="fa-solid fa-arrow-right"
+                      style="margin-left: 10px"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="./images/3cd1d3e537cd005629203e0cac69a8e6.jpg"
+                  alt=""
+                />
+                <div class="card-info">
+                  <h1>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+                    non tenetur, voluptatem provident est saepe consequuntur
+                    ipsa sunt.
+                  </p>
+                  <a href="#"
+                    >Нажимай на меня
+                    <i
+                      class="fa-solid fa-arrow-right"
+                      style="margin-left: 10px"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="btn-container">
+              <button class="default">Посмотреть все</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Видео -->
+    <section id="video">
+      <div class="video-wrapper">
+        <div class="inner">
+          <div class="video-container">
+            <div class="points-container bottom-points">
+              <img src="./images/points.png" alt="points" />
+            </div>
+            <div class="video-element">
+              <div class="video-description">
+                <h1>Что думают молодые парни</h1>
+                <span class="play-button">
+                  <img src="./images/play-button.png" alt="video-start" />
+                  <p>Play</p>
+                </span>
+              </div>
+            </div>
+            <div class="points-container top-points">
+              <img src="./images/points.png" alt="points" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Связка с нами -->
+    <section id="contact">
+      <div class="contact-wrapper">
+        <div class="inner">
+          <div class="contact-text">
+            <h1>Свяжитесь с нами</h1>
+            <p>Новости, обновления, вкусняшки. Будьте на связи и здоровы!</p>
+          </div>
+          <div class="contact-form">
+            <div class="contact-container">
+              <div class="input-container">
+                <input type="text" placeholder="E-mail" />
+              </div>
+              <div class="input-button">Отправить</div>
+            </div>
+          </div>
+          <p style="text-align: center">
+            Мы отвечаем за конденфициальность ваших данных
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--Подвал сайта-->
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <div class="inner">
+          <div class="footer-flex">
+            <div class="description">
+              <div class="footer-container">
+                <img src="./images/footer-logo.png" alt="" />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  non orci augue. Quisque dapibus ligula in purus viverra, ut
+                  lacinia dui fringilla. Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit. Praesent arcu lorem, tincidunt a cursus sed,
+                  finibus ac nisi. Mauris sit amet vehicula nibh. Lorem ipsum
+                  dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <p>Kemza company LTD 2022. All rights reserved.</p>
+              </div>
+            </div>
+            <div class="links">
+              <div class="footer-container">
+                <h2>Компания</h1>
+                <ul>
+                  <li><a href="">Главная</a></li>
+                  <li><a href="">Наши работы</a></li>
+                  <li><a href="">Проекты</a></li>
+                  <li><a href="">О нас</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="links">
+              <div class="footer-container">
+                <h2>Страны</h1>
+                <ul>
+                  <li><a href="">США</a></li>
+                  <li><a href="">Казахстан</a></li>
+                  <li><a href="">Сингапур</a></li>
+                  <li><a href="">Россия</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="links">
+              <div class="footer-container">
+                <h2>Помощь</h1>
+                <ul>
+                  <li><a href="">Центр помощи</a></li>
+                  <li><a href="">Найти услугу</a></li>
+                  <li><a href="">Контакты</a></li>
+                  <li><a href="">Инструкции</a></li>
+                </ul>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./script/jquery-3.6.0.min.js"></script>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
